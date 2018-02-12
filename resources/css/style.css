@@ -1,0 +1,153 @@
+html{
+  width: 1400px;
+  height: auto;
+
+  padding: 20px;
+  font-size: 18px;
+  font-family: Helvetica;
+  margin-left: 0rem 7.5rem;
+}
+
+header{
+  width: auto;
+  margin: 0px;
+  display: flex;
+  background-color: black;
+}
+.container{
+  width: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-indwx: 2;
+}
+header .container img{
+  height: 1.5rem;
+  margin: 0.66rem 1rem 0.66rem 7.5rem;
+  color: white;
+}
+header .container h3{
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  padding-left: 1rem;
+
+}
+main{
+  width: 100%;
+  height: 25rem;
+  position: relative;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: black;
+
+}
+#newarrival{
+  width: 20rem;
+  margin-top: 9rem;
+  margin-left: 0.5rem;
+  margin-left: 7.5rem;
+  position: absolute;
+  background-color: black;
+}
+#newarrival h4{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: white;
+}
+#newarrival h2{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-top: 0.25rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+nav ul{
+  background-color: firebrick;
+  color: white;
+  display: flex;
+  padding: 0.75rem 7.5rem 0.75rem 7.5rem;
+  position: relative;
+}
+nav li{
+  padding-right: 7.5rem;
+}
+/*------------------------------------------*/
+.supporting{
+  height: 18rem;
+  width: 960px;
+  margin-left: 8rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.product{
+  display: block;
+}
+.row{
+  display: inline-flex;
+  margin: 0.5rem;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+img{
+  height: 9rem;
+  width: auto;
+  padding: 2rem;
+}
+p{
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.grid{
+  height: 4rem;
+  width: 960px;
+  margin-left: 9rem;
+}
+.grid-container{
+  width: 8rem;
+  display: block;
+  margin-right: 6rem;
+}
+.col-lg-4 span{
+  display: block;
+}
+.col-lg-4{
+  width: 300px;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+/*-------------------------footer----------*/
+footer{
+  height: 5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-top: 400px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+footer h4{
+  text-align: left;
+  padding: 0rem 5rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
