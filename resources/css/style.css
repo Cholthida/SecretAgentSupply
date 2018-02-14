@@ -121,7 +121,7 @@ p{
   align-items: center;
   display: inline-flex;
 }
-ul{
+.grid ul{
   width: 20rem;
   margin-right: 12rem;
   display: block;
