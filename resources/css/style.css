@@ -1,7 +1,32 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body{
+    font-size: 12px;
+  }
+  main{
+    width: 15rem;
+  }
+  #newarrival{
+    font-size: 0.77rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    padding: 1rem 0rem 2rem;
+    margin-top: 10rem;
+  }
+  .supporting img {
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .supporting img{
+    width: 47%;
+  }
+  .grid ul{
+    width: 30%;
+  }
+}
 html{
   width: auto;
   height: auto;
-
   padding: 20px;
   font-size: 18px;
   font-family: Helvetica;
@@ -109,7 +134,6 @@ p{
   background-color: black;
   border: 1px solid black;
 }
-/*---------------------*/
 .grid{
   height: 8rem;
   width: 960px;
@@ -145,9 +169,6 @@ p{
 #R2 {
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
-
-
-/*-------------------------footer----------*/
 footer{
   height: 5rem;
   background-color: black;
