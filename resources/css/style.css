@@ -1,31 +1,5 @@
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  body{
-    font-size: 12px;
-  }
-  main{
-    width: 15rem;
-  }
-  #newarrival{
-    font-size: 0.77rem;
-    font-weight: bold;
-    font-family: Helvetica;
-    padding: 1rem 0rem 2rem;
-    margin-top: 10rem;
-  }
-  .supporting img {
-    width: 47%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .supporting img{
-    width: 47%;
-  }
-  .grid ul{
-    width: 30%;
-  }
-}
 html{
-  width: auto;
+  width: 1600px;
   height: auto;
   padding: 20px;
   font-size: 18px;
@@ -34,7 +8,7 @@ html{
 }
 
 header{
-  width: auto;
+  width: 1600px;
   margin: 0px;
   display: flex;
   background-color: black;
@@ -59,7 +33,7 @@ header .container h3{
 
 }
 main{
-  width: 100%;
+  width: 1600px;
   height: 25rem;
   position: relative;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
@@ -96,11 +70,14 @@ main{
   color: white;
 }
 nav ul{
+  width: fit-content;
   background-color: firebrick;
   color: white;
   display: flex;
+  justify-content: center;
   padding: 0.75rem 7.5rem 0.75rem 7.5rem;
   position: relative;
+
 }
 nav li{
   padding-right: 7.5rem;

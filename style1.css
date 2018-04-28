@@ -1,0 +1,951 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.wrapper {
+width: 100%;
+margin: 0 auto;
+  }
+header {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  }
+header ul {
+  width: 100%;
+  display: block;
+  margin: 0 7rem auto;
+}
+header ul li {
+  padding: 0.66rem 0;
+  display: inline-block;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+header ul li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.5rem 0;
+}
+header ul li h4{
+  width: 100%;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+main {
+  width: 100%;
+  height: 25rem;
+  display: block;
+  position: relative;
+}
+.img {
+  width: 100%;
+  display: inline-block;
+}
+.img-details {
+  width: 100%;
+  margin-top: 10rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: black;
+  position: absolute;
+  display: inline-block;
+  }
+.img-details h4{
+  padding: 1rem 0 0.25rem 2rem;
+  color: white;
+  font-size: 0.77rem;
+  text-align: left;
+  display: block;
+}
+.img-details h2{
+  padding: 0 0 1rem 2rem;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  display: block;
+}
+#img {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('img/moto.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 25rem;
+}
+ #img-details {
+  width: 25rem;
+  height: 10rem;
+  margin-top: 9rem;
+  margin-left: 8rem;
+  background-color: black;
+  display: inline-block;
+  }
+#img-details h4{
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 0.25rem;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#img-details h2{
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: 1rem;
+  font-family: Helvetica;
+  display: inline-block;
+}
+nav #ipad #ipad-menu {
+  display: none;
+}
+nav #laptop {
+  width: 100%;
+  margin: 0 80px;
+  display: inline-block;
+}
+
+nav #laptop li {
+  margin: 0 30px;
+  padding: 0 15px;
+  line-height: 100px;
+  list-style: none;
+  display: inline-block;
+}
+
+nav #laptop li a{
+  margin: 0.75rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  border: 1px solid black;
+}
+
+nav #laptop li a:hover{
+  color: black;
+}
+.banner {
+  width: 100%;
+  display: block;
+  margin: 0 3rem 0 3rem ;
+}
+.banner .row {
+  width: 100%;
+  height: 15rem;
+  margin: 0 auto;
+  display: block;
+}
+.col-md-4 {
+  width: 30%;
+  height: 13rem;
+  margin: 3rem 0.5rem;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+}
+.col-md-4 .pen {
+  width: 30%;
+  height: 9rem;
+  margin: 0 auto;
+  display: block;
+}
+.col-md-4 .watch{
+  width: 30%;
+  height: 9rem;
+  margin: 0 auto;
+  display: block;
+}
+.col-md-4 .glasses {
+  width: 30%;
+  height: 9rem;
+  margin: 0 auto;
+  display: block;
+}
+.col-md-4 p {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 2rem auto;
+  padding: 0.55rem auto;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  display: block;
+}
+.product-grid {
+  width: 100%;
+  margin: 3rem auto 2rem 3rem;
+  display: inline-flex;
+  border: 1px solid blue;
+  }
+.details {
+  width: 35%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.details h3 {
+  width: 90%;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  background-color: black;
+}
+.details p {
+  width: 85%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#right-grid {
+  margin-left: 10rem;
+}
+#left-grid {
+  margin-right: 7rem;
+}
+footer {
+  width: 100%;
+  height: 4rem;
+  width: 100%;
+  margin: 1rem 0 0 auto;
+  background-color: black;
+  color: white;
+}
+footer h4 {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+  html {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  .wrapper {
+  width: 100%;
+  margin: 0 auto;
+    }
+  header {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    }
+  header ul {
+    width: 100%;
+    display: block;
+    margin: 0 7rem auto;
+  }
+  header ul li {
+    padding: 0.66rem 0;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+  header ul li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem 0;
+  }
+  header ul li h4{
+    width: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  main {
+    width: 100%;
+    height: 25rem;
+    display: block;
+    position: relative;
+  }
+  .img {
+    width: 100%;
+    display: inline-block;
+  }
+  .img-details {
+    width: 100%;
+    margin-top: 10rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    }
+  .img-details h4{
+    padding: 1rem 0 0.25rem 2rem;
+    color: white;
+    font-size: 0.77rem;
+    text-align: left;
+    display: block;
+  }
+  .img-details h2{
+    padding: 0 0 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+  }
+  #img {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/moto.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 25rem;
+  }
+   #img-details {
+    width: 25rem;
+    height: 10rem;
+    margin-top: 9rem;
+    margin-left: 8rem;
+    background-color: black;
+    display: inline-block;
+    }
+  #img-details h4{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.25rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  #img-details h2{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: firebrick;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+    display: inline-block;
+  }
+  nav #ipad #ipad-menu {
+    display: none;
+  }
+  nav #laptop {
+    width: 100%;
+    margin: 0 80px;
+    display: inline-block;
+  }
+  nav #laptop li {
+    margin: 0 30px;
+    padding: 0 15px;
+    line-height: 100px;
+    list-style: none;
+    display: inline-block;
+  }
+  nav #laptop li a{
+    margin: 0.75rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+  }
+  nav #laptop li a:hover{
+    color: black;
+  }
+  .banner {
+    width: 100%;
+    display: block;
+    margin: 0 3rem 0 3rem ;
+  }
+  .banner .row {
+    width: 100%;
+    height: 15rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 {
+    width: 30%;
+    height: 13rem;
+    margin: 3rem 0.5rem;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+  }
+  .col-md-4 .pen {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .watch{
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .glasses {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 p {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 2rem auto;
+    padding: 0.55rem auto;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  .product-grid {
+    width: 80%;
+    margin: 3rem auto 2rem 3rem;
+    display: inline-flex;
+    border: 1px solid blue;
+    }
+  .details {
+    width: 35%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .details h3 {
+    width: 90%;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    background-color: black;
+  }
+  .details p {
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  #right-grid {
+    margin-left: 10rem;
+  }
+  #left-grid {
+    margin-right: 7rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+    width: 100%;
+    margin: 1rem 0 0 auto;
+    background-color: black;
+    color: white;
+  }
+  footer h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+@media screen and (max-width: 640px) {
+  html {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  .wrapper {
+  width: 100%;
+    }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    }
+  header {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    }
+  header ul {
+    display: block;
+    margin: 0 7rem auto;
+  }
+  header ul li {
+    padding: 0.66rem 0;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+  header ul li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem 0;
+  }
+  header ul li h4{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  main {
+    width: 100%;
+    height: 25rem;
+    display: block;
+    position: relative;
+  }
+  .img {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  .img-details {
+    width: 50%;
+    margin-top: 10rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    }
+  .img-details h4{
+    padding: 1rem 0 0.25rem 2rem;
+    color: white;
+    font-size: 0.77rem;
+    text-align: left;
+    display: block;
+    position: relative;
+  }
+  .img-details h2{
+    padding: 0 0 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+    position: relative;
+  }
+  #img {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/moto.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 25rem;
+  }
+   #img-details {
+    width: 25rem;
+    height: 10rem;
+    margin-top: 9rem;
+    margin-left: 8rem;
+    background-color: black;
+    display: inline-block;
+    }
+  #img-details h4{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.25rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  #img-details h2{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: firebrick;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+    display: block;
+  }
+  nav #ipad #ipad-menu{
+    width: 100%;
+    margin: 0 47%;
+    display: block;
+  }
+
+  .banner {
+    width: 100%;
+    display: block;
+    margin: 0 3rem 0 3rem ;
+  }
+  .banner .row {
+    width: 100%;
+    height: 15rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 {
+    width: 30%;
+    height: 13rem;
+    margin: 3rem auto;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    align-content: space-between;
+  }
+  .col-md-4 .pen {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .watch{
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .glasses {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 p {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 2rem auto;
+    padding: 0.55rem auto;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  .product-grid {
+    width: 80%;
+    margin: 3rem auto 2rem 3rem;
+    display: inline-flex;
+    border: 1px solid blue;
+    }
+  .details {
+    width: 35%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .details h3 {
+    width: 90%;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    background-color: black;
+  }
+  .details p {
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  #right-grid {
+    margin-left: 10rem;
+  }
+  #left-grid {
+    margin-right: 7rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+    width: 100%;
+    margin: 1rem 0 0 auto;
+    background-color: black;
+    color: white;
+  }
+  footer h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+@media screen and (min-width: 320px) {
+  .wrapper {
+  width: 100%;
+    }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    }
+  header {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    }
+  header ul {
+    display: block;
+    margin: 0 7rem auto;
+  }
+  header ul li {
+    padding: 0.66rem 0;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+  header ul li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem 0;
+  }
+  header ul li h4{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  main {
+    width: 100%;
+    height: 25rem;
+    display: block;
+  }
+  .img {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  .img-details {
+    width: 100%;
+    height: 5rem;
+    margin-top: 10rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: black;
+    display: inline-block;
+    }
+  .img-details h4{
+    width: 100%;
+    padding: 1rem 0 0.25rem 2rem;
+    color: white;
+    font-size: 0.77rem;
+    text-align: left;
+    display: block;
+  }
+  .img-details h2{
+    width: 100%;
+    padding: 0 0 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+  }
+  #img {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/moto.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 25rem;
+  }
+   #img-details {
+    width: 25rem;
+    height: 10rem;
+    margin-top: 9rem;
+    margin-left: 8rem;
+    background-color: black;
+    display: inline-block;
+    }
+  #img-details h4{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.25rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  #img-details h2{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+    display: block;
+  }
+  #ipad #ipad-menu {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  nav #ipad li {
+    line-height: 100px;
+    list-style: none;
+    display: none;
+  }
+  nav #ipad li a{
+    margin: 0.75rem 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: none;
+  }
+
+  .banner {
+    width: 100%;
+    display: block;
+    margin: 0 3rem 0 3rem ;
+  }
+  .banner .row {
+    width: 100%;
+    height: 15rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 {
+    width: 30%;
+    height: 13rem;
+    margin: 3rem auto;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    align-content: space-between;
+  }
+  .col-md-4 .pen {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .watch{
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: block;
+  }
+  .col-md-4 .glasses {
+    width: 30%;
+    height: 9rem;
+    margin: 0 auto;
+    display: none;
+  }
+  .col-md-4 p {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 2rem auto;
+    padding: 0.55rem auto;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  .product-grid {
+    width: 80%;
+    margin: 3rem auto 2rem 3rem;
+    display: inline-flex;
+    border: 1px solid blue;
+    }
+  .details {
+    width: 35%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .details h3 {
+    width: 90%;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    background-color: black;
+  }
+  .details p {
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  #right-grid {
+    margin-left: 10rem;
+  }
+  #left-grid {
+    margin-right: 7rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+    width: 100%;
+    margin: 1rem 0 0 auto;
+    background-color: black;
+    color: white;
+  }
+  footer h4 {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 4rem;
+    text-align: center;
+  }
+}

@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Secret Agent Supply Inc.</title>
-    <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png">
-        <h3>SECRET AGENT SUPPLY INC.</h3>
-      </div>
-    </header>
-    <main>
-      <div id="newarrival">
-        <h4>NEW ARRIVAL</h4>
-        <h2>SPORT BIKES AND MOTORCYCLES</h2>
-      </div>
-    </main>
-    <nav>
-      <ul>
-        <li>Eyewear</li>
-        <li>Apparel</li>
-        <li>Gadgets</li>
-        <li>Vehicles</li>
-        <li>Classes</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-    <div class="supporting">
-    <div class="product">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png">
-          <p>Exploding Pen</p>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+      <header>
+        <div class="container">
+        <ul>
+          <li>
+            <img src="img/logo.png" alt="Logo">
+          </li>
+          <li id="header-h4">
+            <h4>SECRET AGENT SUPPLY INC.</h4>
+          </li>
+        </ul>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png">
-          <p> Cellular Watch </p>
+      </header>
+      <main id="img">
+        <div class="img-details" id="img-details">
+          <h4>NEW ARRIVAL</h4>
+          <h2>SPORT BIKES AND <br/>MOTORCYCLE</h2>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png">
-          <p>Thermal Glasses</p>
+      </main>
+      <nav>
+        <ul id="laptop">
+          <a href="Eyewear.html"><li>Eyewear</li></a>
+          <a href="Apparel.html"><li>Apparel</li></a>
+          <a href="Gadgets.html"><li>Gadgets</li></a>
+          <a href="Vehicles.html"><li>Vehicles</li></a>
+          <a href="Classes.html"><li>Classes</li></a>
+          <a href="Contact.html"><li>Contact</li></a>
+        </ul>
+        <ul id="ipad">
+          <a href="#"><li>Menu</li></a>
+        </ul>
+      </nav>
+      <section class="banner">
+        <div class="row" id="images">
+          <div class="col-md-4" id="img-pen">
+            <img src="img/pen.png" class="pen" id="pen" alt="pen">
+            <p class="p" id="p-pen">Exploding Pen</p>
+          </div>
+          <div class="col-md-4" id="img-watch">
+            <img src="img/watch.png" class="watch" id="watch" alt="watch">
+            <p class="p" id="p-watch">Cellular Watch</p>
+          </div>
+          <div class="col-md-4" id="img-glasses">
+            <img src="img/glasses.png" class="glasses" id="glasses" alt="glass">
+            <p class="p" id="p-glasses">Thermal Glasses</p>
+          </div>
         </div>
-      </div>
-    </div>
-</div>
-    <div class="grid">
-      <div class="container">
-      <ul class="left">
-        <li id="left">Location</li>
-        <li id="L2">-47.346436, 84.32354</li>
-      </ul>
-      <ul class="right">
-        <li id="right">Hours</li>
-        <li id="R2">0800 - 1800</li>
-      </ul>
-      </div>
-    </div>
-    <footer>
+      </section>
+        <div class="product-grid">
+          <div class="details" id="left-grid">
+            <h3>Location</h3>
+            <p class="pp">-47.346436, 84.32354</p>
+          </div>
+          <div class="details" id="right-grid">
+            <h3>Hours</h3>
+            <p class="pp">0800 - 1800</p>
+          </div>
+        </div>
+      <footer>
         <h4>Copyright Secret Agent Supply Inc.</h4>
-    </footer>
-  </body>
+      </footer>
+  </div>
+</body>
+
 </html>

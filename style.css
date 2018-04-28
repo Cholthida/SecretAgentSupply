@@ -1,0 +1,642 @@
+html {
+  font-size: 18px;
+}
+  .wrapper{
+  width: 100%;
+  margin: 0 auto;
+  }
+  header {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+    }
+  header ul {
+    width: 100%;
+    display: block;
+    color: white;
+    margin: 0.66rem 1rem 0.66 auto;
+  }
+  header ul li {
+    padding: 0.66rem 0;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    padding-left: 0.5rem;
+  }
+  header ul li img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.5rem 0;
+  }
+  header ul li h4{
+    width: 100%;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+main {
+  width: 960px;
+  height: 10rem;
+  margin: 0 auto;
+  display: block;
+}
+
+#img {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('img/moto.jpeg');
+  background-size: cover;
+  margin: 0 auto;
+  height: 25rem;
+}
+ #img-details {
+  width: 25rem;
+  height: 10rem;
+  margin: 9rem 0 0 7rem;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  display: inline-block;
+  }
+#img-details h4{
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 0.25rem;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#img-details h2{
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: firebrick;
+}
+nav #laptop {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav #laptop li {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  padding: 0 15px;
+  line-height: 100px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+nav #laptop li a{
+  margin: 0.75rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+nav #laptop li a:hover{
+  color: black;
+  display: block;
+  text-decoration: none
+}
+nav #ipad {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 100px;
+  color: #ccc;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav #ipad li {
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  line-height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+nav #ipad li a {
+  display: none;
+  color: #ccc;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.banner {
+  width: 960px;
+  margin: 3rem auto 4rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+.row {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-md-4{
+  width: 100%;
+  height: 15rem;
+  margin: 0 1rem;
+  border: 1px solid black;
+  text-align: center;
+  display: block;
+}
+.pen {
+  width: 30%;
+  height: 13rem;
+  margin: 0 auto;
+  display: block;
+}
+.watch {
+  width: 30%;
+  height: 13rem;
+  margin: 0 auto;
+  display: block;
+}
+.glasses {
+  width: 30%;
+  height: 13rem;
+  margin: 0 auto;
+  display:block;
+}
+.p {
+  width: 100%;
+  margin-top: 2rem;
+  line-height: 2rem;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  display: block;
+}
+.product-grid {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+.details {
+  width: 35%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 2.5rem;
+  padding: 0;
+  font-family: Helvetica;
+  font-weight: bold;
+  display: block;
+}
+.details h3{
+  width: 100%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1em;
+  font-family: Helvetica;
+  font-weight: bold;
+  display: block;
+  line-height: 2rem;
+  color: white;
+  background-color: black;
+}
+.details .p {
+  width: 100%;
+  display: block;
+  color: black;
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  display: block;
+  margin-bottom: 1rem;
+  background-color: black;
+  color: white;
+}
+footer h4 {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+}
+                                    /*--IPAD--*/
+                                      /*--IPAD--*/
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 960px;
+  }
+    header {
+      width: 100%;
+      margin: 0 auto;
+      color: white;
+      background-color: black;
+      display: inline-block;
+      }
+    header ul {
+      width: 100%;
+      display: block;
+      margin: 0 7rem auto;
+    }
+    header ul li {
+      color: white;
+      padding: 0.66rem 0;
+      display: inline-block;
+      align-items: center;
+      padding-left: 0.5rem;
+    }
+    header ul li img {
+      width: 1.5rem;
+      height: 1.5rem;
+      padding: 0 0.5rem 0;
+    }
+    header ul li h4{
+      width: 100%;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    main {
+      width: 100%;
+      height: 25rem;
+      display: block;
+
+    }
+    #img {
+      width: 100%;
+      height: calc(100vh - 100px);
+      background-image: url('img/moto.jpeg');
+      background-size: cover;
+      margin: 0 auto;
+      height: 25rem;
+    }
+    #img-details {
+     width: 25rem;
+     height: 10rem;
+     margin: 9rem 0 0 0;
+     margin-bottom: 0.5rem;
+     background-color: black;
+     display: inline-block;
+     }
+
+    #img-details h4{
+      width: 100%;
+      padding-top: 2rem;
+      padding-left: 3rem;
+      padding-bottom: 0.25rem;
+      color: white;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    #img-details h2{
+      width: 100%;
+      padding-top: 2rem;
+      padding-left: 3rem;
+      color: white;
+      font-family: Helvetica;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    nav {
+      width: 100%;
+      height: 100px;
+      background-color: firebrick;
+      color: white;
+      font-size: 1rem;
+      font-family: Helvetica;
+      display: inline-block;
+    }
+    nav #laptop {
+      width: 100%;
+      margin: 0 80px;
+      display: none;
+    }
+    nav #laptop li {
+      margin: 0 30px;
+      padding: 0 15px;
+      color: white;
+      line-height: 100px;
+      list-style: none;
+      display: none;
+    }
+    nav #laptop li a{
+      margin: 0.75rem 1rem;
+      text-decoration: none;
+      list-style: none;
+      display: none;
+    }
+    nav #laptop li a:hover{
+      color: black;
+      display: none;
+    }
+    nav #ipad {
+      width: 100%;
+      margin: 0 auto;
+      line-height: 100px;
+      color: #ccc;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+    }
+    nav #ipad li {
+      width: 100%;
+      margin: 0 auto;
+      line-height: 100px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      list-style: none;
+    }
+    nav #ipad li a {
+      display: block;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      list-style: none;
+    }
+    .banner {
+      width: 960px;
+      margin: 3rem auto 4rem auto;
+      display: flex;
+      justify-content: space-around;
+    }
+    .row {
+      width: 100%;
+      height: 15rem;
+      margin-bottom: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #img-glasses {
+      display: none;
+    }
+    .product-grid {
+      width: 960px;
+      margin: 0 auto;
+      padding-bottom: 4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      }
+    .details {
+      width: 35%;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 1rem;
+      margin-right: 2.5rem;
+      padding: 0;
+      font-family: Helvetica;
+      font-weight: bold;
+      display: block;
+    }
+    .details h3{
+      width: 100%;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1em;
+      font-family: Helvetica;
+      font-weight: bold;
+      display: block;
+      line-height: 2rem;
+      color: white;
+      background-color: black;
+    }
+    .details .p {
+      width: 100%;
+      display: block;
+      color: black;
+      text-align: left;
+    }
+
+    footer {
+      width: 100%;
+      height: 4rem;
+      width: 100%;
+      margin: 1rem 0 0 auto;
+      background-color: black;
+      color: white;
+    }
+    footer h4 {
+      width: 100%;
+      margin: 0 auto;
+      line-height: 4rem;
+      text-align: center;
+    }
+  }
+    /*---MOBILE----*/
+  @media screen and (max-width: 470px) {
+    .wrapper {
+        width: 470px;
+        margin: 0 auto;
+        }
+      header ul li img {
+          width: 1.5rem;
+          height: 1.5rem;
+          margin: 0 3.5rem;
+        }
+        header ul #header-h4 {
+          width: 100%;
+          font-family: Helvetica;
+          font-weight: bold;
+          font-size: 1rem;
+          display: none;
+        }
+      /*-----------MAIN--*/
+      main {
+        width: 470px;
+        margin: 0;
+        display: block;
+      }
+      #img {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-image: url('img/moto.jpeg');
+        background-size: cover;
+        margin: 0 auto;
+        height: 25rem;
+      }
+       #img-details {
+        width: 100%;
+        height: 10rem;
+        margin: 15rem 0 0 0;
+        background-color: black;
+        display: inline-block;
+        }
+      #img-details h4{
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 3rem;
+        padding-bottom: 0.25rem;
+        color: white;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      #img-details h2{
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 3rem;
+        color: white;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+      /*--------------NAV---*/
+      nav {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        color: white;
+        font-size: 1rem;
+        font-family: Helvetica;
+        display: inline-block;
+        text-align: center;
+        background-color: firebrick;
+      }
+      nav #laptop {
+        width: 100%;
+        margin: 0 auto;
+        display: none;
+      }
+      nav #laptop li {
+        margin: 0 30px;
+        padding: 0 15px;
+        line-height: 100px;
+        list-style: none;
+        display: none;
+      }
+      nav #laptop li a{
+        margin: 0.75rem 1rem;
+        text-decoration: none;
+        list-style: none;
+        display: none;
+        border: 1px solid black;
+      }
+      nav #laptop li a:hover{
+        color: none;
+      }
+      nav #ipad {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 100px;
+        color: #ccc;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+      }
+      nav #ipad li {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        list-style: block;
+        display: block;
+      }
+      nav #ipad li a {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        list-style: block;
+        display: block;
+      }
+    /*----BANNER---*/
+  .banner {
+    width: 470px;
+    margin: 3rem auto 4rem auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .row {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #img-pen {
+    width: 90%;
+  }
+  #img-watch {
+    display: none;
+  }
+  #img-glasses {
+    display: none;
+  }
+      /*-product-grid--*/
+  .product-grid {
+    width: 470px;
+    margin: 0 auto;
+    display: block;
+  }
+  .details {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-weight: bold;
+    display: block;
+  }
+  footer {
+    width: 470px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  footer h4 {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+  }
+                          /*---MOBILE----*/
+}
